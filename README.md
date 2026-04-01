@@ -34,7 +34,7 @@ Design and operate a Windows Server 2019 Active Directory environment to simulat
 
 ---
 
-## Phase 1 — Active Directory Setup
+## Active Directory Setup
 
 ### Installed Roles
 Installed the following roles via Server Manager:
@@ -51,7 +51,7 @@ Promoted the server to a Domain Controller by creating a new forest with the dom
 
 ---
 
-## Phase 2 — Organizational Structure
+## Organizational Structure
 
 ### Organizational Units
 Created three OUs to simulate a departmental structure:
@@ -74,7 +74,7 @@ Created 2 users and 1 security group per department — 6 users and 3 groups tot
 
 ---
 
-## Phase 3 — Group Policy Configuration
+## Group Policy Configuration
 
 ### Password Policy GPO
 Applied domain-wide to enforce secure credential standards.
@@ -112,7 +112,7 @@ Restricts users from modifying system settings or bypassing security controls.
 
 ---
 
-## Phase 4 — DHCP Configuration
+## DHCP Configuration
 
 Configured a DHCP scope to automatically assign IP addresses to devices on the network.
 
@@ -130,7 +130,7 @@ Configured a DHCP scope to automatically assign IP addresses to devices on the n
 
 ---
 
-## Phase 5 — DNS Verification
+## DNS Verification
 
 Verified DNS resolution using `nslookup` to confirm the domain controller is correctly resolving `corpnet.local`.
 
@@ -138,7 +138,7 @@ Verified DNS resolution using `nslookup` to confirm the domain controller is cor
 
 ---
 
-## Phase 6 — Help Desk Scenarios
+## Help Desk Scenarios
 
 ### Ticket 1 — Password Reset
 **Issue:** User forgot their password and could not log in.
