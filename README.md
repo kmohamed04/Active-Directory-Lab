@@ -169,3 +169,9 @@ nslookup corpnet.local  # Verified DNS resolution
 ```
 
 ![Troubleshooting](screenshots/18-dns-dhcp-troubleshooting.png)
+
+---
+
+## Disclaimer
+
+This lab was built in a simulated virtual environment using Oracle VirtualBox for educational purposes only. 
